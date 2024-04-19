@@ -1,4 +1,5 @@
 Höfundar: Narges, Kjartan og Sandra 
+leikmenn: Tveir til fjórir
 Markmið: Markmið leikirinn er að vera fyrstur til að komast á endarit 
 Leikreglur: 
         1. Leikmaður ýtir á takkann
