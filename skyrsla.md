@@ -12,6 +12,6 @@
 
 ##### Notað var forritið "" til að hanna peð og .. fyrir ...
 ##### Notað var forritið interbruh til að hanna blah blah 
-##### Forritið var unnið með python og 
+##### Kóðin var skrifað í python
         
         
