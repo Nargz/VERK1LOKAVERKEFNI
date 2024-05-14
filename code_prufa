@@ -1,5 +1,5 @@
 # þessi cóði er ekki til búin:
-# teningurinn virkar ef maður eiðir background_music()
+# teningurinn virkar ef maður eyðir background_music()
 # á eftir að finna út úr vinnings hljóði (skil ekki alveg hvernig read switch virkar)
 
 from machine import Pin, PWM
