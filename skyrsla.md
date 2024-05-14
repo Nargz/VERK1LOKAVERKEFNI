@@ -1,6 +1,6 @@
 # Lúdo
 
-#### Höfundar: ######## Narges, Kjartan og Sandra 
+#### Höfundar: Narges, Kjartan og Sandra 
 #### leikmenn: Tveir til fjórir
 #### Markmið: Markmið leiksins er að vera fyrstur til að komast á endareit.
 #### Leikreglur: 
@@ -12,5 +12,6 @@
 
 ##### Notað var forritið "" til að hanna peð og .. fyrir ...
 ##### Notað var forritið interbruh til að hanna blah blah 
+##### Forritið var unnið með python og 
         
         
