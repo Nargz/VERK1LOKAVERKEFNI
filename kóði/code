@@ -1,0 +1,124 @@
+# Sandra, Narges og Kjartan
+# Verkefni 7 - borðspil
+
+from machine import Pin, PWM
+from time import sleep_ms
+from random import randint
+
+ein_led_pin = Pin(10, Pin.OUT)
+tveir_led_pin = Pin(11, Pin.OUT)
+thrir_led_pin = Pin(12, Pin.OUT)
+fjorir_led_pin = Pin(13, Pin.OUT)
+fimm_led_pin = Pin(14, Pin.OUT)
+sex_led_pin = Pin(15, Pin.OUT)
+
+takki = Pin(16, Pin.IN, Pin.PULL_UP)
+
+Buzzer = PWM(Pin(17))
+
+greann_reed_swith = Pin(18, Pin.IN, Pin.PULL_UP)
+gulur_reed_swith = Pin(19, Pin.IN, Pin.PULL_UP)
+blar_reed_swith = Pin(20, Pin.IN, Pin.PULL_UP)
+raudur_reed_swith = Pin(21, Pin.IN, Pin.PULL_UP)
+
+def sigur():
+     # C6,C6,C6,C6,Ab,Bb,C6,C6X4
+    Buzzer.duty(512)
+    Buzzer.freq(1047)
+    sleep_ms(150)
+    Buzzer.freq(1047)
+    sleep_ms(150) 
+    Buzzer.freq(1047)
+    sleep_ms(150) 
+    Buzzer.freq(1047)
+    sleep_ms(150)
+    Buzzer.freq(831)
+    sleep_ms(150)
+    Buzzer.freq(932)
+    sleep_ms(150)
+    Buzzer.freq(1047) 
+    sleep_ms(150)
+    Buzzer.freq(1047) 
+    sleep_ms(600)
+    Buzzer.duty(0)
+    sleep_ms(600)
+    
+    
+def all_off():
+    ein_led_pin.value(0)
+    tveir_led_pin.value(0)
+    thrir_led_pin.value(0)
+    fjorir_led_pin.value(0)
+    fimm_led_pin.value(0)
+    sex_led_pin.value(0)
+
+while True:
+    Buzzer.duty(0)
+    if not takki():
+        teningur = randint(1,6)
+        if teningur == 1:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(0)
+            thrir_led_pin.value(0)
+            fjorir_led_pin.value(0)
+            fimm_led_pin.value(0)
+            sex_led_pin.value(0)
+            sleep_ms(150)
+            
+        if teningur == 2:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(1)
+            thrir_led_pin.value(0)
+            fjorir_led_pin.value(0)
+            fimm_led_pin.value(0)
+            sex_led_pin.value(0)
+            sleep_ms(150)
+            
+        if teningur == 3:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(1)
+            thrir_led_pin.value(1)
+            fjorir_led_pin.value(0)
+            fimm_led_pin.value(0)
+            sex_led_pin.value(0)
+            sleep_ms(150)
+             
+        if teningur == 4:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(1)
+            thrir_led_pin.value(1)
+            fjorir_led_pin.value(1)
+            fimm_led_pin.value(0)
+            sex_led_pin.value(0)
+            sleep_ms(150)
+                    
+        if teningur == 5:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(1)
+            thrir_led_pin.value(1)
+            fjorir_led_pin.value(1)
+            fimm_led_pin.value(1)
+            sex_led_pin.value(0)
+            sleep_ms(150)
+        
+        if teningur == 6:
+            ein_led_pin.value(1)
+            tveir_led_pin.value(1)
+            thrir_led_pin.value(1)
+            fjorir_led_pin.value(1)
+            fimm_led_pin.value(1)
+            sex_led_pin.value(1)
+            sleep_ms(150)
+            
+    
+    if not greann_reed_swith():
+        sigur()
+        
+    if not gulur_reed_swith():
+        sigur()
+        
+    if not blar_reed_swith():
+        sigur()
+        
+    if not raudur_reed_swith():
+        sigur()
