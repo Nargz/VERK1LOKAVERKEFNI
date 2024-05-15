@@ -10,8 +10,13 @@
 4. Þegar peðið er búin að fara í hring þá fer það upp. 
 
 
-##### Notað var forritið "" til að hanna peð og .. fyrir ...
-##### Notað var forritið interbruh til að hanna blah blah 
-##### Kóðin var skrifað í python
+##### verkfæri og tól: Forritin Thonny, Python, Tinkercad og inkscape. Einnig var notað tin, borðspil, vír, tangar, lóðbolti, 9v batterí, málingu og burstar, 3d prentara, 
+
+##### Staðsetning: Tækniskólinn, háteigsvegur 35-37. Stofa 208
+
+##### Verklýsing: Notað var forritið python að skrifa kóðann síðan var tengt við thonny til að tengja við borðið. Forritið inkscape var notað til að hanna boxið og hlutir sem standa á það. Við notuðum boxmaker extension í inkscrape til þess að 3d prenta boxið. TinkerCad var notað til að hanna peð og húlla sem heldur peðin inni se var síðan 3d prentað líka. 
+
+
+
         
         
