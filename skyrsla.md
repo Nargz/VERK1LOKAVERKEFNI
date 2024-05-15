@@ -10,7 +10,7 @@
 4. Þegar peðið er búin að fara í hring þá fer það upp. 
 
 
-#### verkfæri og tól: Forritin Thonny, Python, Tinkercad og inkscape. Einnig var notað tin, borðspil, vír, tangar, lóðbolti, 9v batterí, málingu og burstar, 3d prentara, hátalari, takki, 
+#### verkfæri og tól: Forritin Thonny, Python, Tinkercad og inkscape. Einnig var notað tin, borðspil, vír, tangar, lóðbolti, 9v batterí, málingu og burstar, 3d prentara, hátalari , takkar, led ljós.
 
 #### Staðsetning: Tækniskólinn, háteigsvegur 35-37. Stofa 208
 
